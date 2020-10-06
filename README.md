@@ -1,4 +1,6 @@
-![](https://github.com/rifqieh/social-media-app-completed/blob/master/social%20media.png)
+### Flutter Social Media Mockup Application
 
-# Flutter Social Media Mockup Application
-Packages [carousel slider](https://pub.dev/packages/carousel_slider)
+Example social media application for Android, iOS, and web, using Flutter integrated through Android Studio.
+Packages include the Carousel Slider (https://pub.dev/packages/carousel_slider) from [pub.dev](pub.dev)
+
+![](https://i.ibb.co/DLv94Pz/documentation-Headings.jpg)
