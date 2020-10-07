@@ -1,9 +1,6 @@
-![](https://github.com/rifqieh/social-media-app-completed/blob/master/social%20media.png)
+### Flutter Social Media Mockup Application
 
-# Social Media App
-## [Youtube: Social Media App - Speed Code](https://www.youtube.com/watch?v=mHGTezO4o6w&feature=youtu.be)
-Packages
-- [google_fonts](https://pub.dev/packages/google_fonts)
-- [carousel slider](https://pub.dev/packages/carousel_slider)
+Example social media application for Android, iOS, and web, using Flutter integrated through Android Studio.
+Packages include the Carousel Slider (https://pub.dev/packages/carousel_slider) from [pub.dev](pub.dev)
 
-Design Credit: [Fire UI](https://www.uplabs.com/posts/free-facebook-app-ui)
+![](https://github.com/kdaniels/FlutterSocialMedia/blob/main/social%20media.png)
