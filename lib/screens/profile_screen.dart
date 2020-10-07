@@ -12,7 +12,7 @@ class ProfileScreen extends StatelessWidget {
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage(
-                'assets/images/profile_bg.png',
+                'assets/images/motorbike.jpg',
               ),
               alignment: Alignment.topCenter,
               fit: BoxFit.fitWidth,
@@ -46,7 +46,7 @@ class ProfileScreen extends StatelessWidget {
                               CircleAvatar(
                                 radius: 48,
                                 backgroundImage:
-                                    AssetImage('assets/images/profile_pic.png'),
+                                    AssetImage('assets/images/friend_pic3.png'),
                               ),
                               SizedBox(
                                 width: 20,
@@ -60,14 +60,14 @@ class ProfileScreen extends StatelessWidget {
                                       height: 20,
                                     ),
                                     Text(
-                                      'Laura Rasmussen',
+                                      'Christopher Robin',
                                       style: TextStyle(
                                         fontSize: 24,
                                         color: kBlueColor,
                                         fontWeight: FontWeight.w500,
                                       ),
                                     ),
-                                    Text('Malaysia'),
+                                    Text('United Kingdom'),
                                     SizedBox(
                                       height: 20,
                                     ),
@@ -82,7 +82,7 @@ class ProfileScreen extends StatelessWidget {
                                         borderRadius: BorderRadius.circular(4),
                                       ),
                                       child: Text(
-                                        'FOLLOW',
+                                        'SHARE',
                                         style: TextStyle(
                                           fontSize: 16,
                                           color: kWhiteColor,
@@ -123,7 +123,7 @@ class ProfileScreen extends StatelessWidget {
                               Column(
                                 children: [
                                   Text(
-                                    '1M',
+                                    '573',
                                     style: TextStyle(
                                       fontSize: 24,
                                       color: kBlueColor,
@@ -173,7 +173,7 @@ class ProfileScreen extends StatelessWidget {
                             height: 16,
                           ),
                           Text(
-                            'Friends',
+                            'Connections',
                             style: TextStyle(
                               fontSize: 20,
                               color: kBlueColor,
@@ -204,14 +204,6 @@ class ProfileScreen extends StatelessWidget {
                               radius: 28,
                               backgroundImage:
                                   AssetImage('assets/images/friend_pic2.png'),
-                            ),
-                          ),
-                          Padding(
-                            padding: EdgeInsets.symmetric(horizontal: 8),
-                            child: CircleAvatar(
-                              radius: 28,
-                              backgroundImage:
-                                  AssetImage('assets/images/friend_pic3.png'),
                             ),
                           ),
                           Padding(
@@ -253,7 +245,7 @@ class ProfileScreen extends StatelessWidget {
                         vertical: 12,
                       ),
                       child: Text(
-                        'Photos',
+                        'Moments',
                         style: TextStyle(
                           color: kBlueColor,
                           fontSize: 20,
@@ -276,29 +268,29 @@ class ProfileScreen extends StatelessWidget {
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(20),
                               child: Image.asset(
-                                'assets/images/photo1.png',
-                                height: 200,
-                                fit: BoxFit.fitHeight,
-                              ),
-                            ),
-                          ),
-                          Padding(
-                            padding: EdgeInsets.symmetric(horizontal: 8),
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(20),
-                              child: Image.asset(
-                                'assets/images/photo2.png',
-                                height: 200,
-                                fit: BoxFit.fitHeight,
-                              ),
-                            ),
-                          ),
-                          Padding(
-                            padding: EdgeInsets.symmetric(horizontal: 8),
-                            child: ClipRRect(
-                              borderRadius: BorderRadius.circular(20),
-                              child: Image.asset(
                                 'assets/images/photo3.png',
+                                height: 200,
+                                fit: BoxFit.fitHeight,
+                              ),
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.symmetric(horizontal: 8),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Image.asset(
+                                'assets/images/tunnel_car.jpg',
+                                height: 200,
+                                fit: BoxFit.fitHeight,
+                              ),
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.symmetric(horizontal: 8),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Image.asset(
+                                'assets/images/woman_in_car.jpg',
                                 height: 200,
                                 fit: BoxFit.fitHeight,
                               ),

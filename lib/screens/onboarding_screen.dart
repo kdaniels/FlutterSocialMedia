@@ -55,16 +55,16 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         children: [
           CarouselSlider(
             items: [0, 1, 2, 3].map((e) {
-              return Image.asset('assets/images/testingCar.jpg');
+              return Image.asset('assets/images/resizeMotorbike.jpg');
             }).toList(),
             options: CarouselOptions(
               height: double.infinity,
               initialPage: currentIndex,
               aspectRatio: 16/9,
               enlargeCenterPage: true,
-              //autoPlayCurve: Curves.fastOutSlowIn,
+              autoPlayCurve: Curves.fastOutSlowIn,
               autoPlayAnimationDuration: Duration(milliseconds: 800),
-              viewportFraction: 0.9,
+              viewportFraction: 1,
               onPageChanged: (index, reason) {
                 setState(() {
                   currentIndex = index;
@@ -99,8 +99,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     textAlign: TextAlign.center,
                   ),
                   Image.asset(
-                    'assets/images/catnextbaseWhite.png',
-                    height: 80,
+                    'assets/images/placeholder-logo.png',
+                    height: 100,
                   ),
                   Text(
                     'Moments',
